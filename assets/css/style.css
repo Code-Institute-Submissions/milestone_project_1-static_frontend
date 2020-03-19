@@ -18,16 +18,28 @@ body {
 
 
 /* ----------------------------------------Special paddings/margins/text */
+.under_picture{   
+    background-color: #00539cff;
+    color:  #F2F8FD;
+    position: absolute;
+    left:0;
+    bottom:0;
+    margin: 1%;
+    padding: 2%;
+    
 
+}
 
 /*--------------------------------------------Heading*/
 /*--------------------------------------------background image*/
 .background-image {
      background: url('../images/homepage.jpg'); 
     background-position: fixed; 
-        background-size: 100%; 
+        background-size: 200%; 
         background-repeat: no-repeat; 
-        height:500px;  /* image height is also 700px */
+        height:700px;  /* image height is also 700px */
+        padding:0;
+
         }
 
 /*--------------------------------------------homepage first col-6*/
@@ -37,12 +49,27 @@ body {
     background-position: fixed;
     
 }
+
+.jumbotron{
+    padding:2.5%;
+    margin:0;
+    font-size:80%;
+}
 /* Phone screen size  */
 @media screen and (max-width: 600px) {
   body, .main-heading {
     font-size: 80%;
-  }
 
+  }
+    .navbar-toggler-icon{
+        position: relative;
+        box-align: right;
+
+    }
+
+    .h1{ display-1
+    
+    }
 }
 
 

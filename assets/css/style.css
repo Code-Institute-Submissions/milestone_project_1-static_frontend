@@ -31,6 +31,11 @@ body {
 }
 
 /*--------------------------------------------Heading*/
+/*--------------------------------------------Quick Links*/
+.tasty_image {
+   max-width: 20px;
+  
+}
 /*--------------------------------------------background image*/
 .background-image {
      background: url('../images/homepage.jpg'); 

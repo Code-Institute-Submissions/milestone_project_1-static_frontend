@@ -59,6 +59,7 @@ body {
     padding:2.5%;
     margin:0;
     font-size:80%;
+    
 }
 /* Phone screen size  */
 @media screen and (max-width: 600px) {

@@ -13,9 +13,17 @@ body {
 .navbar {
     background-color: #00539cff;
     font: weight 700;
-    text-transform: uppercase;
+    padding: 3%;
+    
 }
-
+.main-heading {
+    background-color: rgb(57, 128, 190);
+    color:#F2F8FD;
+    padding: 5%;
+}
+.btn{
+    color:#fdd20eff;
+}
 
 /* ----------------------------------------Special paddings/margins/text */
 .under_picture{   
@@ -26,16 +34,16 @@ body {
     bottom:0;
     margin: 1%;
     padding: 2%;
-    
-
 }
+.space{
+    padding:2%;
+}
+
+
 
 /*--------------------------------------------Heading*/
 /*--------------------------------------------Quick Links*/
-.tasty_image {
-   max-width: 20px;
-  
-}
+
 /*--------------------------------------------background image*/
 .background-image {
      background: url('../images/homepage.jpg'); 
@@ -49,33 +57,32 @@ body {
 
 /*--------------------------------------------homepage first col-6*/
 .opaque_back{
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.2);
     background-size: auto auto;
     background-position: fixed;
+    border-radius:25px;;
+    padding:2%;
     
 }
 
 .jumbotron{
     padding:2.5%;
     margin:0;
+    color: #F2F8FD;
     font-size:80%;
-    
+    background: url('../images/line-graph.jpeg'); 
 }
+
+.jumbotron-text{
+
+}
+.back
 /* Phone screen size  */
 @media screen and (max-width: 600px) {
-  body, .main-heading {
-    font-size: 80%;
+.navbar {
+    font-size: 20px;
 
   }
-    .navbar-toggler-icon{
-        position: relative;
-        box-align: right;
-
-    }
-
-    .h1{ display-1
-    
-    }
 }
-
+}
 

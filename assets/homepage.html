@@ -24,11 +24,18 @@
 
 		<!--navbar -->
 
-		<nav class="navbar">
-			<a class="navbar-brand"
-				href="#"><span class="main-heading opaque_back">Your Own Money Investments </span>   <i class="fa fa-graduation-cap" aria-hidden="true"></i></a>
-		<div class="dropdown">
-  <a class="btn btn-small dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <nav class="navbar">
+			<a class="navbar-brand" 
+				href="#"><span class="main-heading opaque_back">Your Own Money Investments </span>   <i class="fa fa-graduation-cap" aria-hidden="true"></i> 
+		</a>
+                <span class=" navigation-buttons-bigger-screens d-none d-xs-none d-sm-none d-md-block d-lg-block d-xl-block">
+        <button type="button" class="btn btn-primary btn-md large_screen_menu">Reading</button>
+        <button type="button" class="btn btn-primary btn-md large_screen_menu">Podcasts</button>
+        <button type="button" class="btn btn-primary btn-md large_screen_menu">Trade Ideas</button>
+                </span>
+        <!--Start Here dropdown once it goes to smaller screens -->
+        <div class="dropdown">
+  <a class="btn btn-small dropdown-toggle d-sm-block d-xs-block d-md-none d-lg-none d-xl-none" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Start Here
   </a>
 
@@ -38,6 +45,7 @@
     <a class="dropdown-item" href="#">Trade Ideas</a>
   </div>
 </div>
+
 			</div>
 		</nav>
 	</header>

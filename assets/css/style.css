@@ -6,7 +6,7 @@ body {
 
 
 
-/*--------------------------------------------Colors*/
+/*--------------------------------------------Navbar*/
 .navbar i {
     color:#fdd20eff;
 }
@@ -25,6 +25,20 @@ body {
     color:#fdd20eff;
 }
 
+.navigation-buttons-bigger-screens {
+    position: fixed;
+    right: 0
+}
+.large_screen_menu{
+    color:#231F20;
+    background-color: #FFF851;
+    border-radius: 20px;
+    margin-right: 5px;
+}
+.dropdown-menu{
+    color:#231F20;
+    background-color: #FFF851;
+}
 /* ----------------------------------------Special paddings/margins/text */
 .under_picture{   
     background-color: #00539cff;

@@ -45,7 +45,7 @@ body {
     color:  #F2F8FD;
     position: absolute;
     left:0;
-    bottom:0;
+    bottom:10%;
     margin: 1%;
     padding: 2%;
 }
@@ -69,7 +69,7 @@ body {
 
         }
 
-/*--------------------------------------------homepage first col-6*/
+/*--------------------------------------------homepage*/
 .opaque_back{
     background-color: rgba(0, 0, 0, 0.2);
     background-size: auto auto;
@@ -79,6 +79,7 @@ body {
     
 }
 
+
 .jumbotron{
     padding:2.5%;
     margin:0;
@@ -86,11 +87,31 @@ body {
     font-size:80%;
     background: url('../images/line-graph.jpeg'); 
 }
-
-.jumbotron-text{
-
+.reason-why{
+    margin:0;
+    padding: 0;
+    position: absolute;
+    left:5%;
 }
-.back
+.reason-why-small{
+    margin:0;
+    padding: 0;
+    position: absolute;
+    left:5%;
+    top:50%;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+/*--------------------------------------------footer*/
+
+.social-links{
+    position: absolute;
+    bottom:0px;
+    padding:0;
+    text-align: center;
+   
+}
+
 /* Phone screen size  */
 @media screen and (max-width: 600px) {
 .navbar {

@@ -115,7 +115,7 @@ body {
 /* #### Mobile Phones Portrait ####  problems need to solve from main based on responsinator: 
 1) there is too much white space at the bottom.
  */
-@media screen and (max-device-width: 480px) and (orientation: portrait){
+@media screen and (max-device-width: 375px) and (orientation: portrait){
   .background-image {
      background: url('../images/homepage.jpg'); 
     background-position: fixed; 

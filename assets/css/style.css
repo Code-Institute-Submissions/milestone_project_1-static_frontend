@@ -119,7 +119,7 @@ body {
   .background-image {
      background: url('../images/homepage.jpg'); 
     background-position: fixed; 
-        background-size: 200%; 
+        background-size: 100%; 
         background-repeat: no-repeat; 
         height:500px;  /* made the height smaller to get rid of the white space at the bottom*/
         padding:0;

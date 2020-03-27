@@ -127,18 +127,26 @@ background: url('../images/homepage.jpg');
 /* #### Mobile Phones Portrait ####  problems need to solve from main based on responsinator: 
 1) there is too much white space at the bottom.
  */
-@media screen and (max-device-width: 375px) and (orientation: portrait){
-  .background-image {
-    
+@media screen and (max-height: 600px){
+  .col-6 {
+      visibility: hidden;
   }
+  }
+
+  @media screen and (max-height: 400px){
+  .quick-links {
+      visibility: hidden;
+  }
+  }
+
 
 /* #### Mobile Phones Landscape #### problems need to solve from main based on responsinator: 
 1) Too much space at the bottom. The background picture is too long.
 2) The screen is not fixed. There is some slight space to the right.
 3) Make a) heading and b) make the jumbotron and it's text smaller, c) social links are too close to the container fluid.
 */
-@media screen and (max-device-width: 640px) and (orientation: landscape){
-  /* some CSS here */
+@media screen and (max-device-height: 640px) and (orientation: landscape){
+
 }
 
 

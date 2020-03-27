@@ -135,7 +135,7 @@ background: url('../images/homepage.jpg');
   }
   }
 
-  @media screen and (max-height: 400px){
+  @media screen and (max-height: 650px){
   .quick-links {
       visibility: hidden;
   }

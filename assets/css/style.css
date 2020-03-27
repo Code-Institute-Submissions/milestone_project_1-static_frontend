@@ -62,7 +62,7 @@ body {
 .background-image {
      background: url('../images/homepage.jpg'); 
     background-position: relative ; 
-        background-size: 100%; 
+        background-size: 200%; 
         background-repeat: no-repeat; 
         height:100%;  /* image height is 700px */
         width:100%; 

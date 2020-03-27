@@ -61,7 +61,7 @@ body {
 /*--------------------------------------------background image*/
 .background-image {
      background: url('../images/homepage.jpg'); 
-    background-position: fixed; 
+    background-position: relative ; 
         background-size: 200%; 
         background-repeat: no-repeat; 
         height:100%;  /* image height is 700px */
@@ -69,7 +69,12 @@ body {
         padding:0;
 
         }
+.background-reasonwhy {
+background: url('../images/homepage.jpg'); 
+    background-position: fixed ; 
+    bottom: 0px;
 
+}
 /*--------------------------------------------homepage*/
 .opaque_back{
     background-color: rgba(0, 0, 0, 0.2);
@@ -139,5 +144,12 @@ body {
 1) perfect height but sleightly too much width:
 */
 @media screen and (min-device-width: 768px) and (max-device-width: 1024px){
-  /* some CSS here */
+    .reason-why{
+        font-size: 300%;
+        
+    }
+    .col-6{
+        width: 100%;
+        
+    }
 }

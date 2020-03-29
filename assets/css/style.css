@@ -216,4 +216,14 @@ h3{
 }
 
 }
+@media screen and (max-height: 400px) and (orientation:lanscape) {
+.col-6 .reason-why {
+        display:none;
+}
+h1, p {
+    font-size: 50%;
+    background-color: purple;
 
+} 
+
+}

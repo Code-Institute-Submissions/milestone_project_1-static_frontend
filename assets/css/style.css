@@ -174,7 +174,7 @@ body {
 }
 
 
-/*--------------------------------------------reading page*/
+/*--------------------------------------------reading and podcasts page*/
 blockquote {
     
     padding:10px;
@@ -186,7 +186,15 @@ blockquote {
     margin-bottom: 20px;
     position: relative;
 }
-.book{
+
+    
+h3{
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 20px;
+}
+
+.podcast-description, .book-description {
     text-align:justify; 
     margin-top: 40px;
     background-color: #F2F8FD;
@@ -195,8 +203,4 @@ blockquote {
     width:75%:
     margin-left: 20px;
     margin-top: 10px;
-}
-h3{
-    font-weight: 600;
-    text-transform: uppercase;
 }

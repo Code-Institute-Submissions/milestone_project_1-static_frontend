@@ -1,8 +1,6 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    width: 100%;
-    height:100%;
 }
 
 
@@ -87,7 +85,6 @@ background: url('../images/homepage.jpg');
     
 }
 .container-fluid {
-    width:100%;
     left:0px;
     margin-left: 0;
     margin-top: 10px;
@@ -119,62 +116,32 @@ background: url('../images/homepage.jpg');
 }
 /*--------------------------------------------footer*/
 
-.social-links{
-    position: absolute;
-    bottom:0px;
-    padding-top: 10px;
-    text-align: center;
-   
-}
+
 
 /* #### Mobile Phones Portrait ####  problems need to solve from main based on responsinator: 
 1) there is too much white space at the bottom.
  */
-@media screen and (max-height: 600px){
-  .col-6 {
-      visibility: hidden;
-  }
-  }
+
 
   @media screen and (max-height: 650px){
   .quick-links {
       visibility: hidden;
   }
   }
-@media screen and (max-device-width: 734px) and (max-device-width: 684px){
-
-}
-
-  .background-image: {
-      font-size:50%;
-
-  
-  }
-  }
 
 
-/* #### Mobile Phones Landscape #### problems need to solve from main based on responsinator: 
-1) Too much space at the bottom. The background picture is too long.
-2) The screen is not fixed. There is some slight space to the right.
-3) Make a) heading and b) make the jumbotron and it's text smaller, c) social links are too close to the container fluid.
-*/
-@media screen and (max-device-height: 640px) and (orientation: landscape){
-
-}
 
 
-/* #### Tablets Portrait or Landscape #### 
-1) perfect height but sleightly too much width:
-*/
-@media screen and (min-device-width: 768px) and (orientation: landscape)  , screen and (max-device-width: 1024px) and (orientation: landscape){
-body {
-    position:fixed;
-}
 
-}
 
 
 /*--------------------------------------------reading and podcasts page*/
+
+.row .page-title {
+margin:0;
+    padding:0;
+}
+
 blockquote {
     
     padding:10px;
@@ -199,8 +166,57 @@ h3{
     margin-top: 40px;
     background-color: #F2F8FD;
     background-position: relative;
+
     height: 35%;
     width:75%:
     margin-left: 20px;
-    margin-top: 10px;
+}
+
+/*--------------------------------------------social links*/
+.social-links{
+    position: fixed;
+    bottom:0px;
+    padding-top: 10px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 600px) {
+   
+
+
+h3{
+    font-size:80%;
+}
+.col-3 {
+    height: 80%;
+    width:80%;
+    font-size: 80%;
+    margin:2px 2px 2px 2px;
+    padding:2px;
+}
+.quick-links {
+    display:none;
+    
+}
+}
+
+
+@media screen and (max-height: 600px) {
+
+h3{
+    font-size:80%;
+}
+.col-3 {
+    height: 80%;
+    width:80%;
+    font-size: 80%;
+    margin:2px 2px 2px 2px;
+    padding:2px;
+}
+.quick-links {
+    display:none;
+    
+}
+
 }

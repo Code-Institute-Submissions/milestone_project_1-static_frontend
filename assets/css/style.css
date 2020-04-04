@@ -192,9 +192,7 @@ h3{
 
 
 @media screen and (max-width: 380px) and (orientation:portrait) , (max-height: 400px) and (orientation:portrait) {
-    body{
-        background-color: yellow;
-    }
+  
     .under_picture {
             font-size: 50%;   
     }
@@ -216,13 +214,12 @@ h3{
 }
 @media screen and (min-width: 750px){
     .reason-why {
-        background-color: red;
+       
         font-size: 200%;
     }
 }
 @media screen and (max-height: 500px){
     .col-6 {
-        background-color: green;
-        font-size: 200%;
+        display: none;
     }
 }

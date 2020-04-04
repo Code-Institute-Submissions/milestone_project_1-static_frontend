@@ -230,7 +230,7 @@ h3{
 @media screen and (max-width: 750px) and (orientation:landscape) , (max-height: 500px) and (orientation:landscape) {
   
     .reason-why {
-        display: none;
+        background-color: purple;
     }
     
     .under_picture {
@@ -247,7 +247,9 @@ h3{
     }
 }
 @media screen and (max-width: 380px) and (orientation:portrait) , (max-height: 400px) and (orientation:portrait) {
-    
+    body{
+        background-color: yellow;
+    }
     .under_picture {
             font-size: 50%;   
     }
@@ -264,6 +266,6 @@ h3{
 @media screen and (max-width: 750px)
 {
        .reason-why {
-        display: none;
+        background-color: blue;
     }
 }

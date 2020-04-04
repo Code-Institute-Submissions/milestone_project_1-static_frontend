@@ -189,63 +189,8 @@ h3{
     
 }
 
-}
-/*
-@media screen and (max-height: 600px) and (orientation:landscape) {
-p, h1{
-    font-size: 50%;
-    font-style: bold;
-}
 
-h3{
-    font-size:50%;
-}
-.col-3 {
-    height: 50%;
-    width:50%;
-    font-size: 50%;
-    margin:2px 2px 2px 2px;
-    padding:2px;
-}
-.quick-links {
-    display:none;
-    
-}  
 
-*/
-/*
-@media screen and (max-height: 560px) and (orientation:landscape) {
-   
-    div {
-        font-size: 10%;
-    }
-}
-/*
-@media screen and (max-width: 400px) and (orientation:portrait) {
-    .reason-why {
-        font-size: 50%;  
-    }
-}
-*/
-@media screen and (max-width: 750px) and (orientation:landscape) , (max-height: 500px) and (orientation:landscape) {
-  
-    .reason-why {
-        background-color: purple;
-    }
-    
-    .under_picture {
-            font-size: 50%;   
-    }
-    h1, p .lead {
-        font-size: 50%;
-    }
-    h3{
-    font-size:50%;
-    }
-    .col-3 {
-        font-size: 50%;
-    }
-}
 @media screen and (max-width: 380px) and (orientation:portrait) , (max-height: 400px) and (orientation:portrait) {
     body{
         background-color: yellow;
@@ -253,7 +198,7 @@ h3{
     .under_picture {
             font-size: 50%;   
     }
-    h1, p .lead {
+    h1, p {
         font-size: 50%;
     }
     h3{
@@ -266,11 +211,12 @@ h3{
 @media screen and (max-width: 750px)
 {
        .reason-why {
-        background-color: blue;
+        display: none;
     }
 }
-@media screen and (min-width: 768px){
+@media screen and (min-width: 750px){
     .reason-why {
         background-color: red;
+        font-size: 200%;
     }
 }

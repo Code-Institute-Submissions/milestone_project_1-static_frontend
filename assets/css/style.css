@@ -247,10 +247,6 @@ h3{
     }
 }
 @media screen and (max-width: 380px) and (orientation:portrait) , (max-height: 400px) and (orientation:portrait) {
-  
-    .reason-why {
-        display: none;
-    }
     
     .under_picture {
             font-size: 50%;   
@@ -263,5 +259,11 @@ h3{
     }
     .col-3 {
         font-size: 50%;
+    }
+}
+@media screen and (max-width: 750px)
+{
+       .reason-why {
+        display: none;
     }
 }

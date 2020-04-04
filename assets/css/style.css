@@ -220,3 +220,9 @@ h3{
         font-size: 200%;
     }
 }
+@media screen and (max-height: 500px){
+    .reason-why {
+        background-color: green;
+        font-size: 200%;
+    }
+}

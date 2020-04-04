@@ -189,7 +189,14 @@ h3{
     
 }
 
+@media screen and (max-width: 790px){
 
+       .col-6 .reason-why {
+        display: none;
+        background-color:pink;
+    }
+   
+}
 
 @media screen and (max-width: 380px) and (orientation:portrait) , (max-height: 400px) and (orientation:portrait) {
   
@@ -217,12 +224,4 @@ h3{
     .col-6, .reason-why {
         display: none;
     }
-}
-@media screen and (max-width: 790px)
-{
-       .col-6 .reason-why {
-        display: none;
-        background-color:pink;
-    }
-   
 }

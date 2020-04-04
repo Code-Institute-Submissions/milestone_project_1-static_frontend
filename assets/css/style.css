@@ -189,12 +189,11 @@ h3{
     
 }
 
-@media screen and (max-width: 790px) and (orientation:landscape){
+@media screen and (max-width: 780px) and (orientation:landscape){
 
        .reason-why {
         display: none;
         visibility: hidden;
-        background-color:rgb(238, 13, 51);
     }
    
 }
@@ -224,5 +223,6 @@ h3{
 @media screen and (max-height: 500px){
     .col-6, .reason-why {
         display: none;
+        visibility: hidden;
     }
 }

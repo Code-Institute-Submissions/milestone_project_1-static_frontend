@@ -214,7 +214,7 @@ h3{
     }
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-height: 800px) and (orientation:portrait) {
     .reason-why {
        
         font-size: 200%;

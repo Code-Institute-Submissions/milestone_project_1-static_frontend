@@ -269,3 +269,8 @@ h3{
         background-color: blue;
     }
 }
+@media screen and (min-width: 768px){
+    .reason-why {
+        background-color: red;
+    }
+}

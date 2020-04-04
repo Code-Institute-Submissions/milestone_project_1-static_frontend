@@ -207,7 +207,7 @@ h3{
     }
 }
 
-@media screen and (min-width: 750px){
+@media screen and (min-width: 950px){
     .reason-why {
        
         font-size: 200%;
@@ -220,7 +220,7 @@ h3{
 }
 @media screen and (max-width: 750px)
 {
-       .reason-why, col-6 {
+       .reason-why, .col-6 {
         display: none;
     }
 }

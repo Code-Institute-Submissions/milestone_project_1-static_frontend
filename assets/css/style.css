@@ -206,12 +206,7 @@ h3{
         font-size: 50%;
     }
 }
-@media screen and (max-width: 750px)
-{
-       .reason-why {
-        display: none;
-    }
-}
+
 @media screen and (min-width: 750px){
     .reason-why {
        
@@ -219,7 +214,13 @@ h3{
     }
 }
 @media screen and (max-height: 500px){
-    .col-6 {
+    .col-6, .reason-why {
+        display: none;
+    }
+}
+@media screen and (max-width: 750px)
+{
+       .reason-why, col-6 {
         display: none;
     }
 }

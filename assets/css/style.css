@@ -248,7 +248,11 @@ h3{
 }
 @media screen and (max-width: 380px) and (orientation:portrait) , (max-height: 400px) and (orientation:portrait) {
   
-    .reason-why, .under_picture {
+    .reason-why {
+        display: none;
+    }
+    
+    .under_picture {
             font-size: 50%;   
     }
     h1, p .lead {

@@ -189,11 +189,11 @@ h3{
     
 }
 
-@media screen and (max-width: 790px){
+@media screen and (max-width: 790px) and (orientation:landscape){
 
-       .col-6 .reason-why {
+       .reason-why {
         display: none;
-        background-color:pink;
+        background-color:rgb(238, 13, 51);
     }
    
 }

@@ -70,7 +70,7 @@ body {
         }
 .background-reasonwhy {
 background: url('../images/homepage.jpg'); 
-    background-position: relative  
+    background-position: relative;  
     bottom: 0px;
 
 }
@@ -149,7 +149,7 @@ h3{
     background-position: relative;
 
     height: 35%;
-    width:75%:
+    width:75%;
     margin-left: 20px;
 }
 
@@ -167,7 +167,7 @@ h3{
 p {
     padding:10px;
 }
-/* @MEDIA podcasts content */
+/* @MEDIA podcasts content*/
 @media screen and (max-width: 900px) {
    
 h1{
@@ -191,8 +191,8 @@ h3{
 
 }
 
-@media screen and (max-height: 600px) {
-h1{
+@media screen and (max-height: 600px) and (orientation:landscape) {
+p, h1{
     font-size: 50%;
     font-style: bold;
 }
@@ -210,18 +210,36 @@ h3{
 .quick-links {
     display:none;
     
-}
+}  
 
 }
-@media screen and (max-height: 400px) and (orientation:lanscape) {
-.col-6 .reason-why {
-        display:none;
-}
-h1, p {
-    font-size: 50%;
-    background-color: purple;
 
-} 
+/* @MEDIA podcasts content 
 @media screen and (max-width: 420px) and (orientation:portrait) {
-    padding:0px;
+     h1, p .lead {
+        font-size: 20%;
+    }
+    div .col-6 .reason-why {
+        font-size: 10%;
+    }
+}
+@media screen and (max-height: 560px) and (orientation:landscape) {
+   h1, p .lead {
+        font-size: 20%;
+    }
+    div .col-6 .reason-why {
+        font-size: 10%;
+    }
+}
+*/
+@media screen and (max-width: 400px) and (orientation:portrait) {
+    .reason-why {
+        display: none;
+    }
+}
+@media screen and (min-width: 1000px) and (max-height: 600px) and (orientation:landscape) {
+    .reason-why {
+        display: none;
+    }
+    .
 }

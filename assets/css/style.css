@@ -229,7 +229,11 @@ h3{
 */
 @media screen and (max-width: 750px) and (orientation:landscape) , (max-height: 500px) and (orientation:landscape) {
   
-    .reason-why, .under_picture {
+    .reason-why {
+        display: none;
+    }
+    
+    .under_picture {
             font-size: 50%;   
     }
     h1, p .lead {

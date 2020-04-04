@@ -190,7 +190,7 @@ h3{
 }
 
 }
-
+/*
 @media screen and (max-height: 600px) and (orientation:landscape) {
 p, h1{
     font-size: 50%;
@@ -212,34 +212,48 @@ h3{
     
 }  
 
-}
-
-/* @MEDIA podcasts content 
-@media screen and (max-width: 420px) and (orientation:portrait) {
-     h1, p .lead {
-        font-size: 20%;
-    }
-    div .col-6 .reason-why {
-        font-size: 10%;
-    }
-}
+*/
+/*
 @media screen and (max-height: 560px) and (orientation:landscape) {
-   h1, p .lead {
-        font-size: 20%;
-    }
-    div .col-6 .reason-why {
+   
+    div {
         font-size: 10%;
+    }
+}
+/*
+@media screen and (max-width: 400px) and (orientation:portrait) {
+    .reason-why {
+        font-size: 50%;  
     }
 }
 */
-@media screen and (max-width: 400px) and (orientation:portrait) {
-    .reason-why {
-        display: none;
+@media screen and (max-width: 750px) and (orientation:landscape) , (max-height: 500px) and (orientation:landscape) {
+  
+    .reason-why, .under_picture {
+            font-size: 50%;   
+    }
+    h1, p .lead {
+        font-size: 50%;
+    }
+    h3{
+    font-size:50%;
+    }
+    .col-3 {
+        font-size: 50%;
     }
 }
-@media screen and (max-width: 750px) and (orientation:landscape) , (max-height: 600px) and (orientation:landscape) {
-    .reason-why {
-        display: none;
+@media screen and (max-width: 380px) and (orientation:portrait) , (max-height: 400px) and (orientation:portrait) {
+  
+    .reason-why, .under_picture {
+            font-size: 50%;   
     }
-    .
+    h1, p .lead {
+        font-size: 50%;
+    }
+    h3{
+    font-size:50%;
+    }
+    .col-3 {
+        font-size: 50%;
+    }
 }

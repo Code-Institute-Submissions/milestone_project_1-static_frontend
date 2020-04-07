@@ -41,12 +41,16 @@ body {
 .under_picture{   
     background-color: #00539cff;
     color:  #F2F8FD;
-    position: relative;
+    position: absolute;
     left:0;
     bottom:8%;
     margin: 1%;
     padding: 2%;
 }
+.space{
+    padding:2%;
+}
+
 
 
 /*--------------------------------------------Heading*/
@@ -55,33 +59,14 @@ body {
 /*--------------------------------------------background image*/
 .background-image {
      background: url('../images/homepage.jpg'); 
-    background-position: relative;  
+    background-position: relative  
         background-size: 200%; 
         background-repeat: no-repeat; 
         height:100%;  /* image height is 700px */
         width:100%; 
         padding:0;
-        }
-.background-image-2 {
-     background: url('../images/reading.jpg'); 
-    background-position: relative;  
-        background-size: 200%; 
-        background-repeat: no-repeat; 
-        height:100%;  /* image height is 700px */
-        width:100%; 
-        padding:0;
-        }
 
-.background-image {
-     background: url('../images/homepage.jpg'); 
-    background-position: relative;  
-        background-size: 200%; 
-        background-repeat: no-repeat; 
-        height:100%;  /* image height is 700px */
-        width:100%; 
-        padding:0;
         }
-
 .background-reasonwhy {
 background: url('../images/homepage.jpg'); 
     background-position: relative;  
@@ -92,7 +77,7 @@ background: url('../images/homepage.jpg');
 .opaque_back{
     background-color: rgba(0, 0, 0, 0.2);
     background-size: auto auto;
-    background-position: relative;
+    background-position: fixed;
     border-radius:25px;;
     padding:2%;
     
@@ -112,14 +97,17 @@ background: url('../images/homepage.jpg');
     background: url('../images/line-graph.jpeg'); 
 }
 .reason-why{
-   margin-top: 20px;
-   margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    position: absolute;
+    left:5%;
 }
 
 .reason-why-small{
     margin:0;
     padding: 0;
-    position: relative;
+    position: absolute;
     left:5%;
     top:50%;
     font-style: italic;
@@ -132,21 +120,9 @@ background: url('../images/homepage.jpg');
 
 
 /*--------------------------------------------reading and podcasts page*/
-.page-title{
-    color: #fdd20eff;
-    margin-left: 20px;
-    margin-top: 20px;
-}
 
-.opaque_back_2{
-    background-color: rgba(0, 0, 0, 0.7);
-    background-size: auto auto;
-    background-position: relative;
-    border-radius:25px;;
-    padding:2%;
-    
-}
-/*
+
+
 blockquote {
     
     padding:10px;
@@ -156,7 +132,7 @@ blockquote {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    position: absolute;
+    position: relative;
 }
 
     
@@ -176,25 +152,49 @@ h3{
     width:75%;
     margin-left: 20px;
 }
-*/
+
 /*--------------------------------------------social links*/
 .social-links{
-    position: absolute;
+    position: fixed;
     bottom:0px;
     padding-top: 10px;
     text-align: center;
+
 }
 .page-title{
     text-transform: uppercase;
 }
-
-/* @MEDIA podcasts content
+p {
+    padding:10px;
+}
+/* @MEDIA podcasts content*/
 @media screen and (max-width: 900px) {
    
+h1{
+    font-size: 100%;
+}
+
+h3{
+    font-size:80%;
+}
+.col-3 {
+    height: 80%;
+    width:80%;
+    font-size: 80%;
+    margin:2px 2px 2px 2px;
+    padding:2px;
+}
+.quick-links {
+    display:none;
+    
+}
 
 @media screen and (max-width: 780px) and (orientation:landscape){
 
- 
+       .reason-why {
+        display: none;
+        visibility: hidden;
+    }
    
 }
 
@@ -215,7 +215,14 @@ h3{
 }
 
 @media screen and (min-height: 800px) and (orientation:portrait) {
-  
+    .reason-why {
+       
+        font-size: 200%;
+    }
 }
 @media screen and (max-height: 400px) and (orientation:landscape){
-   */
+    .col-6, .reason-why {
+        display: none;
+        visibility: hidden;
+    }
+}

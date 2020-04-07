@@ -11,21 +11,20 @@ body {
 }
 .navbar {
     background-color: #00539cff;
-    font: weight 700;
+    font-weight: 700;
     padding: 3%;
-    
 }
 .main-heading {
     background-color: rgb(57, 128, 190);
     color:#F2F8FD;
-    padding: 5%;
+    padding:0;
 }
 .btn{
     color:#fdd20eff;
 }
 
 .navigation-buttons-bigger-screens {
-    position: fixed;
+    position: absolute;
     right: 0
 }
 .large_screen_menu{
@@ -87,6 +86,7 @@ background: url('../images/homepage.jpg');
     left:0px;
     margin-left: 0;
     margin-top: 10px;
+    margin-right: 0;
 }
 
 .jumbotron{

@@ -63,8 +63,8 @@ body {
         padding:0;
         }
 .background-image-2 {
-     background: url('../images/reading.jpg'); 
-    background-position: relative;  
+     background: url('../images/kindle.jpg'); 
+    background-position: absolute;  
         background-size: 200%; 
         background-repeat: no-repeat; 
         height:100%;  /* image height is 700px */
@@ -74,7 +74,7 @@ body {
 
 .background-image {
      background: url('../images/homepage.jpg'); 
-    background-position: relative;  
+    background-position: absolute;  
         background-size: 200%; 
         background-repeat: no-repeat; 
         height:100%;  /* image height is 700px */
@@ -93,15 +93,9 @@ background: url('../images/homepage.jpg');
     background-color: rgba(0, 0, 0, 0.2);
     background-size: auto auto;
     background-position: relative;
-    border-radius:25px;;
+    border-radius:25px;
     padding:2%;
     
-}
-.container-fluid {
-    left:0px;
-    margin-left: 0;
-    margin-top: 10px;
-    margin-right: 0;
 }
 
 .background-image{
@@ -132,6 +126,9 @@ background: url('../images/homepage.jpg');
 
 
 /*--------------------------------------------reading and podcasts page*/
+.books {
+    align-content: center;
+}
 .page-title{
     color: #fdd20eff;
     margin-left: 20px;
@@ -141,45 +138,19 @@ background: url('../images/homepage.jpg');
 .opaque_back_2{
     background-color: rgba(0, 0, 0, 0.7);
     background-size: auto auto;
-    background-position: relative;
-    border-radius:25px;;
-    padding:2%;
+    background-position: absolute;
+    border-radius:25px;
     
 }
-/*
-blockquote {
-    
-    padding:10px;
 
-}
-.col-12{
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    position: absolute;
+.container-fluid {
+    margin-left: 5px;
+    padding:5px;
 }
 
-    
-h3{
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-right: 20px;
-}
-
-.podcast-description, .book-description {
-    text-align:justify; 
-    margin-top: 40px;
-    background-color: #F2F8FD;
-    background-position: relative;
-
-    height: 35%;
-    width:75%;
-    margin-left: 20px;
-}
-*/
 /*--------------------------------------------social links*/
 .social-links{
-    position: absolute;
+    position: relative;
     bottom:0px;
     padding-top: 10px;
     text-align: center;
@@ -188,34 +159,3 @@ h3{
     text-transform: uppercase;
 }
 
-/* @MEDIA podcasts content
-@media screen and (max-width: 900px) {
-   
-
-@media screen and (max-width: 780px) and (orientation:landscape){
-
- 
-   
-}
-
-@media screen and (max-width: 380px) and (orientation:portrait) , (max-height: 400px) and (orientation:portrait) {
-  
-    .under_picture {
-            font-size: 50%;   
-    }
-    h1, p {
-        font-size: 50%;
-    }
-    h3{
-    font-size:50%;
-    }
-    .col-3 {
-        font-size: 50%;
-    }
-}
-
-@media screen and (min-height: 800px) and (orientation:portrait) {
-  
-}
-@media screen and (max-height: 400px) and (orientation:landscape){
-   */

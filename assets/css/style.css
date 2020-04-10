@@ -80,7 +80,7 @@ body {
 
 /*--------------------------------------------background image*/
 .background-image-4 {
-     background: url('../images/contact_us.jpg'); 
+     background: url('../images/contact_us.png'); 
     background-position: absolute;  
         background-size: cover;
         background-repeat: no-repeat; 
@@ -91,7 +91,7 @@ body {
         }
 
 .background-image-3 {
-     background: url('../images/microphone.jpg'); 
+     background: url('../images/microphone.png'); 
     background-position: absolute;  
         background-size: cover;
         background-repeat: no-repeat; 
@@ -101,7 +101,7 @@ body {
         background-blend-mode: lighten;
         }
 .background-image-2 {
-     background: url('../images/kindle.jpg'); 
+     background: url('../images/kindle.png'); 
     background-position: relative;  
         background-size: cover;
         background-repeat: no-repeat; 
@@ -113,7 +113,7 @@ body {
         }
 
 .background-image {
-     background: url('../images/homepage.jpg'); 
+     background: url('../images/homepage.png'); 
     background-position: absolute;  
         background-size: cover;
         background-repeat: no-repeat; 

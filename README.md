@@ -124,8 +124,17 @@ Since this is a static website it only requires very basic testing. I tested all
     12. Try the 'facebook' icon & link, and hover-over response in the social links at the bottom of the page. - Success
     13. Try the 'twitter' icon & link, and hover-over response in the social links at the bottom of the page. - Success
     14. Try the 'instagram' icon & link, and hover-over response in the social links at the bottom of the page. - Success
-    15. Check the page in responsinator:
-        - 
+    15. Check the index.html page in responsinator:<a href="https://www.responsinator.com/?url=https%3A%2F%2Fsammckenna1986.github.io%2Fmilestone_project_1-static_frontend%2Findex.html"></a>
+        - iPhone eXpensive portrait · width: 375px - Success
+        - iPhone eXpensive landscape · width: 734px - Success
+        - Android (Pixel 2) portrait · width: 412px - Success
+        - Android (Pixel 2) landscape · width: 684px - Success
+        - iPhone 6-8 portrait · width: 375px - Success
+        - iPhone 6-8 landscape · width: 667px - Success
+        - iPhone 6-8 Plump portrait · width: 414px - Success
+        - iPhone 6-8 Plump landscape · width: 736px - Success
+        - iPad portrait · width: 768px - Success (There is a lot of white space at the bottom but I am actually fine with it as it draws the eye more towards the social links and it is unusual so it does not have the 'wall paper' effect on people.)
+        - iPad landscape · width: 1024px - Success (There is a lot of white space at the bottom but I am actually fine with it as it draws the eye more towards the social links and it is unusual so it does not have the 'wall paper' effect on people.)
     
 2. <b>User Story 2:</b> Looking for quick book recommendations: reading.html page.
     1. Try to read all of the text on the 'reading' page, make sure that the information is correct, and make sure that the text looks strong. - Success
@@ -146,6 +155,17 @@ Since this is a static website it only requires very basic testing. I tested all
     16. Try the 'Market Wizards' link in the book title, and hover-over response in the books section. - Success
     17. Try the 'How I Made $2,000,000 in the Stock Market' link in the book title, and hover-over response in the books section. - Success
     18. Try the 'Top 10 Trading Setups' link in the book title, and hover-over response in the books section. - Success
+    19. Check the index.html page in responsinator: <a href="https://www.responsinator.com/?url=https%3A%2F%2Fsammckenna1986.github.io%2Fmilestone_project_1-static_frontend%2Freading.html"></a>
+    - iPhone eXpensive portrait · width: 375px - Success
+    - iPhone eXpensive landscape · width: 734px - Success
+    - Android (Pixel 2) portrait · width: 412px - Success
+    - Android (Pixel 2) landscape · width: 684px - Success
+    - iPhone 6-8 portrait · width: 375px - Success
+    - iPhone 6-8 landscape · width: 667px - Success
+    - iPhone 6-8 Plump portrait · width: 414px - Success
+    - iPhone 6-8 Plump landscape · width: 736px - Success
+    - iPad portrait · width: 768px - Success (ipad looks great)
+    - iPad landscape · width: 1024px - Success (ipad looks great)
 
 
 3. <b>User Story 3:</b> Looking for quick podcast recommendations: podcasts.html page.
@@ -167,6 +187,17 @@ Since this is a static website it only requires very basic testing. I tested all
     16. Try the 'The Investors Podcast' link in the podcast title, and hover-over response in the podcasts section. - Success
     17. Try the 'Macro Voices' link in the podcast title, and hover-over response in the podcasts section. - Success
     18. Try the 'Top Traders Unplugged' link in the podcast title, and hover-over response in the podcasts section. - Success
+    19. Check the podcasts.html page in responsinator: <a href="https://www.responsinator.com/?url=https%3A%2F%2Fsammckenna1986.github.io%2Fmilestone_project_1-static_frontend%2Fpodcasts.html"></a>
+    - iPhone eXpensive portrait · width: 375px - Success
+    - iPhone eXpensive landscape · width: 734px - Success
+    - Android (Pixel 2) portrait · width: 412px - Success
+    - Android (Pixel 2) landscape · width: 684px - Success
+    - iPhone 6-8 portrait · width: 375px - Success
+    - iPhone 6-8 landscape · width: 667px - Success
+    - iPhone 6-8 Plump portrait · width: 414px - Success
+    - iPhone 6-8 Plump landscape · width: 736px - Success
+    - iPad portrait · width: 768px - Success (ipad looks great)
+    - iPad landscape · width: 1024px - Success (ipad looks great)
     
 4. <b>User Story 4:</b> Looking for quick and easy trading ideas: tradeideas.html page.
     1. Try to read all of the text on the 'trade ideas' page, make sure that the information is correct, and make sure that the text looks strong. - Success
@@ -191,6 +222,16 @@ Since this is a static website it only requires very basic testing. I tested all
     20. Make sure all of the information in the 'income statement' is readable on wide screen and on narrow screens. - Success
     21. Make sure all of the information in the 'liabilities section of the balance sheet' is readable on wide screen and on narrow screens. - Success
     22. Make sure all of the information in the 'cashflow sheet' is readable on wide screen and on narrow screens. - Success
+    23. Check the tradeideas.html page in responsinator:<a href="https://www.responsinator.com/?url=https%3A%2F%2Fsammckenna1986.github.io%2Fmilestone_project_1-static_frontend%2Ftradeideas.html"></a> 
+    - iPhone eXpensive portrait · width: 375px - Success
+    - iPhone eXpensive landscape · width: 734px - Success
+    - Android (Pixel 2) portrait · width: 412px - Success
+    - Android (Pixel 2) landscape · width: 684px - Success
+    - iPhone 6-8 portrait · width: 375px - Success
+    - iPhone 6-8 landscape · width: 667px - Success
+    - iPhone 6-8 Plump portrait · width: 414px - Success
+    - iPhone 6-8 Plump landscape · width: 736px - Success
+    - iPad portrait · width: 768px - Success 
 
 5. <b>User Story 5:</b> User has a more specific question and wants to contact the website owner: contact_us.html page.
     1. Try to read all of the text on the 'contact us' page, make sure that the information is correct, and make sure that the text looks strong. - Success
@@ -211,6 +252,17 @@ Since this is a static website it only requires very basic testing. I tested all
     16. Try picking all options: 'Particular Stock', 'Strategy', 'Position Sizing', 'Entering a Trade', 'Exiting a Trade' from the 'Question Subject' dropdown menu. - Success
     17. Try typing into the 'Question' field. - Success
     18. Try hovering over the 'Submit' button - Success (the full functinality of this form is out of scope for this static website project)
+    19. Check the contact_us.html page in responsinator: <a href="https://www.responsinator.com/?url=https%3A%2F%2Fsammckenna1986.github.io%2Fmilestone_project_1-static_frontend%2Fcontact_us.html">Link</a>
+    - iPhone eXpensive portrait · width: 375px - Success
+    - iPhone eXpensive landscape · width: 734px - Success
+    - Android (Pixel 2) portrait · width: 412px - Success
+    - Android (Pixel 2) landscape · width: 684px - Success
+    - iPhone 6-8 portrait · width: 375px - Success
+    - iPhone 6-8 landscape · width: 667px - Success
+    - iPhone 6-8 Plump portrait · width: 414px - Success
+    - iPhone 6-8 Plump landscape · width: 736px - Success
+    - iPad portrait · width: 768px - Success 
+    - iPad landscape · width: 1024px - Success 
 
 
 1. Contact form:

@@ -17,7 +17,7 @@ encourages users to come back to the website for the newest entries on the blog.
 'Learn - How to grow your own money safely' and the user identifies with the second statement, that they will never increase their wealth significantly
 by just working a normal job. They are inspired to look for more information on the website.<br><br>
 
-<b>User Story 2: Looking for quick reading recommendations</b><br>
+<b>User Story 2: Looking for quick book recommendations</b><br>
 - As a new or experienced user, the user clicks the 'reading' button if they are on a wide screen device or on the 'start here' drop down button which reveals the 'reading' section on a narrower screen device such as a phone, this 
 allows the user to see the latest recommendations for investment books.<br><br>
 
@@ -109,7 +109,7 @@ Users are able to learn a bit about the website owner and also are able to conta
 Since this is a static website it only requires very basic testing. I tested all of the links and made sure that they all work and ended up replacing the backround pictures that were in jpg format and converting them to png so they would load faster.
 
 
-1. User Story 1: Be Inspired: index.html page.
+1. <b>User Story 1:</b> Be Inspired: index.html page.
     1. Try to read all of the text on the index page and make sure that the text looks strong. - Success
     2. The background image now loads faster as I replaced the jpg files with the converted png files. - Success
     3. Try the 'Your Own Money Investments' link in the logo  - Success
@@ -124,10 +124,97 @@ Since this is a static website it only requires very basic testing. I tested all
     12. Try the 'facebook' icon & link, and hover-over response in the social links at the bottom of the page. - Success
     13. Try the 'twitter' icon & link, and hover-over response in the social links at the bottom of the page. - Success
     14. Try the 'instagram' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    15. Check the page in responsinator:
+        - 
     
+2. <b>User Story 2:</b> Looking for quick book recommendations: reading.html page.
+    1. Try to read all of the text on the 'reading' page, make sure that the information is correct, and make sure that the text looks strong. - Success
+    2. The background image now loads faster as I replaced the jpg files with the converted png files. - Success
+    3. Try the 'Your Own Money Investments' link in the logo  - Success
+    4. Try the 'Reading' button and hover-over response in the navbar. - Success
+    5. Try the 'Podcasts' button and hover-over response in the navbar. - Success
+    6. Try the 'Trade Ideas' button and hover-over response in the navbar. - Success
+    7. Try the 'Contact Us' button and hover-over response in the navbar. - Success
+    8. Try the 'Reading' button and hover-over response in the dropdown menu for narrower screens. - Success
+    9. Try the 'Podcasts' button and hover-over response in the dropdown menu for narrower screens. - Success
+    10. Try the 'Trade Ideas' button and hover-over response in the dropdown menu for narrower screens. - Success
+    11. Try the 'Contact Us' button and hover-over response in the dropdown menu for narrower screens. - Success
+    12. Try the 'facebook' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    13. Try the 'twitter' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    14. Try the 'instagram' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    15. Try the 'One Good Trade' link in the book title, and hover-over response in the books section. - Success
+    16. Try the 'Market Wizards' link in the book title, and hover-over response in the books section. - Success
+    17. Try the 'How I Made $2,000,000 in the Stock Market' link in the book title, and hover-over response in the books section. - Success
+    18. Try the 'Top 10 Trading Setups' link in the book title, and hover-over response in the books section. - Success
 
+
+3. <b>User Story 3:</b> Looking for quick podcast recommendations: podcasts.html page.
+    1. Try to read all of the text on the 'podcasts' page, make sure that the information is correct, and make sure that the text looks strong. - Success
+    2. The background image now loads faster as I replaced the jpg files with the converted png files. - Success
+    3. Try the 'Your Own Money Investments' link in the logo  - Success
+    4. Try the 'Reading' button and hover-over response in the navbar. - Success
+    5. Try the 'Podcasts' button and hover-over response in the navbar. - Success
+    6. Try the 'Trade Ideas' button and hover-over response in the navbar. - Success
+    7. Try the 'Contact Us' button and hover-over response in the navbar. - Success
+    8. Try the 'Reading' button and hover-over response in the dropdown menu for narrower screens. - Success
+    9. Try the 'Podcasts' button and hover-over response in the dropdown menu for narrower screens. - Success
+    10. Try the 'Trade Ideas' button and hover-over response in the dropdown menu for narrower screens. - Success
+    11. Try the 'Contact Us' button and hover-over response in the dropdown menu for narrower screens. - Success
+    12. Try the 'facebook' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    13. Try the 'twitter' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    14. Try the 'instagram' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    15. Try the 'Chat with Traders' link in the podcast title, and hover-over response in the podcasts section. - Success
+    16. Try the 'The Investors Podcast' link in the podcast title, and hover-over response in the podcasts section. - Success
+    17. Try the 'Macro Voices' link in the podcast title, and hover-over response in the podcasts section. - Success
+    18. Try the 'Top Traders Unplugged' link in the podcast title, and hover-over response in the podcasts section. - Success
     
-    
+4. <b>User Story 4:</b> Looking for quick and easy trading ideas: tradeideas.html page.
+    1. Try to read all of the text on the 'trade ideas' page, make sure that the information is correct, and make sure that the text looks strong. - Success
+    2. The background image now loads faster as I replaced the jpg files with the converted png files. - Success
+    3. Try the 'Your Own Money Investments' link in the logo  - Success
+    4. Try the 'Reading' button and hover-over response in the navbar. - Success
+    5. Try the 'Podcasts' button and hover-over response in the navbar. - Success
+    6. Try the 'Trade Ideas' button and hover-over response in the navbar. - Success
+    7. Try the 'Contact Us' button and hover-over response in the navbar. - Success
+    8. Try the 'Reading' button and hover-over response in the dropdown menu for narrower screens. - Success
+    9. Try the 'Podcasts' button and hover-over response in the dropdown menu for narrower screens. - Success
+    10. Try the 'Trade Ideas' button and hover-over response in the dropdown menu for narrower screens. - Success
+    11. Try the 'Contact Us' button and hover-over response in the dropdown menu for narrower screens. - Success
+    12. Try the 'facebook' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    13. Try the 'twitter' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    14. Try the 'instagram' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    15. Try the 'yahoo finance' icon & link, and hover-over response in the social links at the top of the page. - Success
+    16. Try the 'trading view' icon & link, and hover-over response in the social links at the top of the page. - Success
+    17. Try the 'morningstar' icon & link, and hover-over response in the social links at the top of the page. - Success
+    18. Try the 'tastytrade' icon & link in the social links at the bottom of the page. - Success
+    19. Make sure all of the information in the 'trading view' chart is readable on wide screen and on narrow screens. - Success
+    20. Make sure all of the information in the 'income statement' is readable on wide screen and on narrow screens. - Success
+    21. Make sure all of the information in the 'liabilities section of the balance sheet' is readable on wide screen and on narrow screens. - Success
+    22. Make sure all of the information in the 'cashflow sheet' is readable on wide screen and on narrow screens. - Success
+
+5. <b>User Story 5:</b> Looking for quick and easy trading ideas: tradeideas.html page.
+    1. Try to read all of the text on the 'trade ideas' page, make sure that the information is correct, and make sure that the text looks strong. - Success
+    2. The background image now loads faster as I replaced the jpg files with the converted png files. - Success
+    3. Try the 'Your Own Money Investments' link in the logo  - Success
+    4. Try the 'Reading' button and hover-over response in the navbar. - Success
+    5. Try the 'Podcasts' button and hover-over response in the navbar. - Success
+    6. Try the 'Trade Ideas' button and hover-over response in the navbar. - Success
+    7. Try the 'Contact Us' button and hover-over response in the navbar. - Success
+    8. Try the 'Reading' button and hover-over response in the dropdown menu for narrower screens. - Success
+    9. Try the 'Podcasts' button and hover-over response in the dropdown menu for narrower screens. - Success
+    10. Try the 'Trade Ideas' button and hover-over response in the dropdown menu for narrower screens. - Success
+    11. Try the 'Contact Us' button and hover-over response in the dropdown menu for narrower screens. - Success
+    12. Try the 'facebook' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    13. Try the 'twitter' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    14. Try the 'instagram' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    15. Try the 'yahoo finance' icon & link, and hover-over response in the social links at the top of the page. - Success
+    16. Try the 'trading view' icon & link, and hover-over response in the social links at the top of the page. - Success
+    17. Try the 'morningstar' icon & link, and hover-over response in the social links at the top of the page. - Success
+    18. Try the 'tastytrade' icon & link in the social links at the bottom of the page. - Success
+    19. Make sure all of the information in the 'trading view' chart is readable on wide screen and on narrow screens. - Success
+    20. Make sure all of the information in the 'income statement' is readable on wide screen and on narrow screens. - Success
+    21. Make sure all of the information in the 'liabilities section of the balance sheet' is readable on wide screen and on narrow screens. - Success
+    22. Make sure all of the information in the 'cashflow sheet' is readable on wide screen and on narrow screens. - Success
 
 
 1. Contact form:

@@ -223,7 +223,7 @@ I assume it is because it makes the margin too big to have two columns beside ea
 
 /*--------------------------------------------social links*/
 .social-links{
-    position: relative;
+    position: fixed;
     bottom:0px;
     padding-top: 10px;
     text-align: center;

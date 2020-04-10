@@ -70,9 +70,19 @@ Users are able to learn a bit about the website owner and also are able to conta
         - <b>Typography:</b> https://getbootstrap.com/docs/4.4/content/typography/
         - <b>Grid:</b> https://getbootstrap.com/docs/4.4/layout/grid/
 
+- [Font Awesome](https://fontawesome.com/)
+        - 'fa fa-graduation-cap'
+        - 'fa fa-facebook'
+        - 'fa fa-twitter'
+        - 'fa fa-instagram'
+
+- [Google Fonts](https://fonts.google.com/)
+        - 'fa fa-graduation-cap'
+
+
     - [CSS](https://cssreference.io/)
-        - <b>font-family:</b> for choosing the font
-        - <b>text-transform:</b> to use uppercase function
+        - <b>font-family:</b> for choosing the font.
+        - <b>text-transform:</b> to use uppercase function.
         - <b>text-align:</b> to align the text especially justify for the centered text.
         - <b>background:</b> for adding in the background picture urls.
         - <b>background-position:</b> for background picture positioning.
@@ -96,7 +106,48 @@ Users are able to learn a bit about the website owner and also are able to conta
 
 ## Testing
 
-Since this is a static website it only requires very basic testing. I tested all of the links and made sure that they work
+Since this is a static website it only requires very basic testing. I tested all of the links and made sure that they all work and ended up replacing the backround pictures that were in jpg format and converting them to png so they would load faster.
+
+
+1. User Story 1: Be Inspired: index.html page.
+    1. Try to read all of the text on the index page and make sure that the text looks strong. - Success
+    2. The background image now loads faster as I replaced the jpg files with the converted png files. - Success
+    3. Try the 'Your Own Money Investments' link in the logo  - Success
+    4. Try the 'Reading' button and hover-over response in the navbar. - Success
+    5. Try the 'Podcasts' button and hover-over response in the navbar. - Success
+    6. Try the 'Trade Ideas' button and hover-over response in the navbar. - Success
+    7. Try the 'Contact Us' button and hover-over response in the navbar. - Success
+    8. Try the 'Reading' button and hover-over response in the dropdown menu for narrower screens. - Success
+    9. Try the 'Podcasts' button and hover-over response in the dropdown menu for narrower screens. - Success
+    10. Try the 'Trade Ideas' button and hover-over response in the dropdown menu for narrower screens. - Success
+    11. Try the 'Contact Us' button and hover-over response in the dropdown menu for narrower screens. - Success
+    12. Try the 'facebook' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    13. Try the 'twitter' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    14. Try the 'instagram' icon & link, and hover-over response in the social links at the bottom of the page. - Success
+    
+
+    
+    
+
+
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
+1. Contact form:
+    1. Go to the "Contact Us" page
+    2. Try to submit the empty form and verify that an error message about the required fields appears
+    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
+    4. Try to submit the form with all inputs valid and verify that a success message appears.
+
 
 1. Contact form:
     1. Go to the "Contact Us" page

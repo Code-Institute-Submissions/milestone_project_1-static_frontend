@@ -18,15 +18,20 @@ encourages users to come back to the website for the newest entries on the blog.
 by just working a normal job. They are inspired to look for more information on the website.<br><br>
 
 <b>User Story 2: Looking for quick reading recommendations</b><br>
-- As a new or experienced user, the user clicks the 'reading' section if they are on a wide screen device or on the 'start here' drop down button which reveals the 'reading' section on a narrower screen device such as a phone, this 
+- As a new or experienced user, the user clicks the 'reading' button if they are on a wide screen device or on the 'start here' drop down button which reveals the 'reading' section on a narrower screen device such as a phone, this 
 allows the user to see the latest recommendations for investment books.<br><br>
 
 <b>User Story 3: Looking for quick podcast recommendations</b><br>
-- As a new or experienced user, the user clicks the 'podcasts' section if they are on a wide screen device or on the 'start here' drop down button which reveals the 'podcasts' section on a narrower screen device such as a phone, this 
+- As a new or experienced user, the user clicks the 'podcasts' button if they are on a wide screen device or on the 'start here' drop down button which reveals the 'podcasts' section on a narrower screen device such as a phone, this 
 allows the user to see the latest recommendations for investment podcasts.<br><br>
 
 <b>User Story 4: Looking for quick and easy trading ideas</b><br>
-- As a new or experienced user, the user clicks the 'trade ideas' section if they are on a wide screen device or on the 'start here' drop down button which reveals the 'trade ideas' section on a narrower screen device such as a phone, this 
+- As a new or experienced user, the user clicks the 'trade ideas' botton if they are on a wide screen device or on the 'start here' drop down button which reveals the 'trade ideas' section on a narrower screen device such as a phone, this 
+allows the user to see the latest trade ideas that are published on the website. The user is interested in these trade ideas the most as it is the main portion of the website content that keeps getting updated and that they are getting trading insights from over time. The user checks back more frequently over time as he develops a trust with the
+author.<br><br>
+
+<b>User Story 5: User has a more specific question and wants to contact the website owner</b><br>
+- As a new or experienced user, the user clicks the 'Contact Us' button if they are on a wide screen device or on the 'start here' drop down button which reveals the 'trade ideas' section on a narrower screen device such as a phone, this 
 allows the user to see the latest trade ideas that are published on the website. The user is interested in these trade ideas the most as it is the main portion of the website content that keeps getting updated and that they are getting trading insights from over time. The user checks back more frequently over time as he develops a trust with the
 author.<br><br>
 
@@ -35,35 +40,63 @@ author.<br><br>
 This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
 
 ## Features
+1) <b>Recommended Reading Section</b><br><br> 
+Users are able to look through a collection of books regarding investing and trading. There are so many poorly written books on investing that these recommendations cut through the noise and give them a place to start learning about the subject.
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+2) <b>Recommended Podcasts Section</b><br><br> 
+Users are able to look through a collection of podcasts regarding investing and trading. The podcasts chosen cover specific categories and themes in order to give the user a wider view and a more diverse range of opinions from the trading and investing world.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+3) <b>Trade Ideas Section</b><br><br> 
+Users are able to look through trade ideas blog entries that allows them to get a feel how the website owner thinks through his trading strategy and what attributes & signals may influence his trading decisions. There is also a useful <b> quick-links</b> section in the top left of the page, which allows the user to get quick access to the 'yahoo finance',
+'trading view', 'morningstar', and 'tastyworks' websites.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+4) <b>Contact Us Section</b><br><br> 
+Users are able to learn a bit about the website owner and also are able to contact him through a form that a) categorises what their question is about, b) ask their question in the text field and then c) submit their question pressing the submit button. (this is just the static version of this and is not operational yet in terms of actually sending the information anywhere.)
 
-### Features Left to Implement
-- Another feature idea
+
+###Future Feature Ideas
+- I had an idea for using iframes to display the information from different websites on another page as a tool; For example you could have yahoo finance, trading view, and tastyworks open on the same website. They don't support iframes though so I would probably try and scrape the information using beautifulsoup and python at a later stage.
+- Ther quick-links section was originally on every page but then I decided against this because it actually encourages people to leave the website. I left it in on the trading ideas page as it becomes useful as a lot of the information on the page would be directly from those websites. Once there are multiple posts it might be worth making the icon links specific to the stock ticker from the post and having multiple of these quick-links icon groups. 
+- Once there are more posts on the trade ideas page it might be worth implementing some of the bootstrap pagenation features to focus the users attention more rather than them scrolling down for a long time to find the section they want and getting disctracted by the passing-other-posts.
+
 
 ## Technologies Used
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+- [Bootstrap](https://getbootstrap.com/)
+    - The project uses **Bootstrap** to speed up the HTML and CSS work.
+        - <b>Buttons:</b> https://getbootstrap.com/docs/4.4/components/buttons/
+        - <b>Dropdowns:</b> https://getbootstrap.com/docs/4.4/components/dropdowns/
+        - <b>Navbar:</b> https://getbootstrap.com/docs/4.4/components/navbar/
+        - <b>Typography:</b> https://getbootstrap.com/docs/4.4/content/typography/
+        - <b>Grid:</b> https://getbootstrap.com/docs/4.4/layout/grid/
 
-- [JQuery](https://jquery.com)
-    - The project uses **JQuery** to simplify DOM manipulation.
+    - [CSS](https://cssreference.io/)
+        - <b>font-family:</b> for choosing the font
+        - <b>text-transform:</b> to use uppercase function
+        - <b>text-align:</b> to align the text especially justify for the centered text.
+        - <b>background:</b> for adding in the background picture urls.
+        - <b>background-position:</b> for background picture positioning.
+        - <b>background-size:</b> Used cover to make sure that the background does not run out of picture and shows white space too much.
+        - <b>background-repeat:</b> Put in no-repeat for having the background picture not repeating.
+        - <b>height:</b> For sizing the images and playing around with the background image sizes as well.
+        - <b>width:</b> For sizing the images and playing around with the background image sizes as well.
+        - <b>padding:</b> For making sure all of the text and html components have enough space in terms of design so it does not look cramped.
+        - <b>background-blend-mode:</b> I came across this one by chance on w3schools but I used it to make the background image 'lighten' so the text would show up better.
+        - <b>color:</b> for text colouring and the colouring of the fa icon.
+        - <b>background-color:</b> for creating little boxes (including opacity) to make the text show up better on the background image.
+        - <b>font-weight:</b> To make the text easier to read.
+        - <b>position:</b> for positioning
+        - <b>border-radius:</b> for making oval backgrounds for the buttons and for some of the boxes that I put text into.
+        - <b>display:</b> controlling and centering items as blocks.
+        - <b>margin:</b> (left,right, top, bottom) for creating space between components and text.
+
+
+
 
 
 ## Testing
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Since this is a static website it only requires very basic testing. I tested all of the links and made sure that they work
 
 1. Contact form:
     1. Go to the "Contact Us" page

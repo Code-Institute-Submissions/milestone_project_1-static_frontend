@@ -1,82 +1,9 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
-
-
-
-
-/*--------------------------------------------Navbar*/
-.navbar i {
-    color:#fdd20eff;
+.page-title{
+    text-transform: uppercase;
 }
-.navbar {
-    background-color: #00539cff;
-    font-weight: 700;
-    padding: 3%;
-}
-.main-heading {
-    background-color: rgb(57, 128, 190);
-    color:#F2F8FD;
-    padding:0;
-}
-.btn{
-    color:#fdd20eff;
-}
-
-.navigation-buttons-bigger-screens {
-    position: absolute;
-    right: 0
-}
-.large_screen_menu{
-    color:#231F20;
-    background-color: #FFF851;
-    border-radius: 20px;
-    margin-right: 0px;
-}
-.dropdown-menu{
-    color:#231F20;
-    background-color: #FFF851;
-}
-/* ----------------------------------------Special paddings/margins/text */
-
-
-
-
-.container-fluid {
-    margin-left: 0px;
-}
-.row{
-    margin-right: 0px;
-    padding:15px;
-}
-
-
-/*--------------------------------------------index page*/
-
-.lead {
-    text-align: justify;
-    color:#F2F8FD;
-    background-color: rgba(0, 0, 0, 0.0);
-    padding: 15px;
-    margin-top: 20px;
-}
-
-.under_picture p{   
-    background-color: rgba(0, 0, 0, 0.0);
-    text-align: left;
-    color:#F2F8FD;
-    padding:0px;
-    margin-left:0px;
-    margin-right: 20px;
-}
-.under_picture {
-    padding:0px;
-    margin-left:0px;
-    margin-right:20px;
-}
-
-
-/*--------------------------------------------Quick Links*/
 
 /*--------------------------------------------background image*/
 .background-image-4 {
@@ -123,13 +50,81 @@ body {
         background-blend-mode: lighten;
         }
 
-.background-reasonwhy {
-background: url('../images/homepage.jpg'); 
-    background-position: relative;  
-    bottom: 0px;
 
+/*--------------------------------------------Navbar*/
+.navbar i {
+    color:#fdd20eff;
 }
-/*--------------------------------------------homepage*/
+.navbar {
+    background-color: #00539cff;
+    font-weight: 700;
+    padding: 3%;
+}
+.main-heading {
+    background-color: rgb(57, 128, 190);
+    color:#F2F8FD;
+    padding:0;
+}
+.btn{
+    color:#fdd20eff;
+}
+
+.navigation-buttons-bigger-screens {
+    position: absolute;
+    right: 0
+}
+.large_screen_menu{
+    color:#231F20;
+    background-color: #FFF851;
+    border-radius: 20px;
+    margin-right: 0px;
+}
+.dropdown-menu{
+    color:#231F20;
+    background-color: #FFF851;
+}
+/* ----------------------------------------Special paddings/margins/text */
+
+
+.container-fluid {
+    margin-left: 0px;
+}
+.row{
+    margin-right: 0px;
+    padding:15px;
+}
+/* I'm not sure why but the following gives the picture a bit of room on the page to the right so it makes it nicer to look at. So I left it in
+I assume it is because it makes the margin too big to have two columns beside each other for col-sm-6. A happy accident.
+*/
+.col-sm-6{
+    margin-left:20px; 
+}
+
+
+/*--------------------------------------------index page*/
+
+.lead {
+    text-align: justify;
+    color:#F2F8FD;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.under_picture p{   
+    background-color: rgba(0, 0, 0, 0.0);
+    text-align: left;
+    color:#F2F8FD;
+    padding:0px;
+    margin-left:0px;
+    margin-right: 20px;
+}
+.under_picture {
+    padding:0px;
+    margin-left:0px;
+    margin-right:20px;
+}
+
 .opaque_back{
     background-color: rgba(0, 0, 0, 0.2);
     background-size: auto auto;
@@ -138,7 +133,7 @@ background: url('../images/homepage.jpg');
     padding:2%;
     
 }
-
+/* made some changes to the background image to the homepage which works better but still keeping the old one */
 .background-image{
     padding:2.5%;
     margin:0;
@@ -146,20 +141,8 @@ background: url('../images/homepage.jpg');
     font-size:80%;
     background: url('../images/line-graph.jpeg'); 
 }
-.reason-why{
-   margin-top: 20px;
-   margin-left: 20px;
-}
 
-.reason-why-small{
-    margin:0;
-    padding: 0;
-    position: relative;
-    left:5%;
-    top:50%;
-    font-style: italic;
-    letter-spacing: 5px;
-}
+
 /*--------------------------------------------Contact_Us page*/
 
 .contact_us {
@@ -176,7 +159,14 @@ background: url('../images/homepage.jpg');
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 20px;
-    padding: 15px;
+}
+.submit_btn{
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding:15px;
+  
 }
 
 
@@ -216,12 +206,7 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
-/* I'm not sure why but the following gives the kindle in the picture a bit of room on the page so it makes it nicer to look at. So I left it in
-I assume it is because it makes the margin too big to have two columns beside each other. A happy accident.
-*/
-.col-sm-6{
-    margin-left:20px; 
-}
+
 
 /*--------------------------------------------social links*/
 .social-links{
@@ -229,8 +214,5 @@ I assume it is because it makes the margin too big to have two columns beside ea
     bottom:0px;
     padding-top: 10px;
     text-align: center;
-}
-.page-title{
-    text-transform: uppercase;
 }
 

@@ -164,6 +164,8 @@ background: url('../images/homepage.jpg');
 
 .contact_us {
     color:#F2F8FD; 
+    background-color: rgba(255, 123, 123, 0.2);
+    padding: 15px;
 }
 
 .form-group{
@@ -223,7 +225,7 @@ I assume it is because it makes the margin too big to have two columns beside ea
 
 /*--------------------------------------------social links*/
 .social-links{
-    position: fixed;
+    position: relative;
     bottom:0px;
     padding-top: 10px;
     text-align: center;

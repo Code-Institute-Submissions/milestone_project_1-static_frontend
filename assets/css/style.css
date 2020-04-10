@@ -38,15 +38,7 @@ body {
     background-color: #FFF851;
 }
 /* ----------------------------------------Special paddings/margins/text */
-.under_picture{   
-    background-color: #00539cff;
-    color:  #F2F8FD;
-    position: relative;
-    left:0;
-    bottom:8%;
-    margin: 1%;
-    padding: 2%;
-}
+
 
 
 
@@ -59,7 +51,31 @@ body {
 }
 
 
-/*--------------------------------------------Heading*/
+/*--------------------------------------------index page*/
+
+.lead {
+    text-align: justify;
+    color:#F2F8FD;
+    background-color: rgba(0, 0, 0, 0.0);
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.under_picture p{   
+    background-color: rgba(0, 0, 0, 0.0);
+    text-align: left;
+    color:#F2F8FD;
+    padding:0px;
+    margin-left:0px;
+    margin-right: 20px;
+}
+.under_picture {
+    padding:0px;
+    margin-left:0px;
+    margin-right:20px;
+}
+
+
 /*--------------------------------------------Quick Links*/
 
 /*--------------------------------------------background image*/

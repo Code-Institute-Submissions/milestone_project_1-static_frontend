@@ -186,14 +186,14 @@ Since this is a static website it only requires very basic testing. I tested all
     15. Try the 'yahoo finance' icon & link, and hover-over response in the social links at the top of the page. - Success
     16. Try the 'trading view' icon & link, and hover-over response in the social links at the top of the page. - Success
     17. Try the 'morningstar' icon & link, and hover-over response in the social links at the top of the page. - Success
-    18. Try the 'tastytrade' icon & link in the social links at the bottom of the page. - Success
+    18. Try the 'tastytrade' icon & link in the social links at the top of the page. - Success
     19. Make sure all of the information in the 'trading view' chart is readable on wide screen and on narrow screens. - Success
     20. Make sure all of the information in the 'income statement' is readable on wide screen and on narrow screens. - Success
     21. Make sure all of the information in the 'liabilities section of the balance sheet' is readable on wide screen and on narrow screens. - Success
     22. Make sure all of the information in the 'cashflow sheet' is readable on wide screen and on narrow screens. - Success
 
-5. <b>User Story 5:</b> Looking for quick and easy trading ideas: tradeideas.html page.
-    1. Try to read all of the text on the 'trade ideas' page, make sure that the information is correct, and make sure that the text looks strong. - Success
+5. <b>User Story 5:</b> User has a more specific question and wants to contact the website owner: contact_us.html page.
+    1. Try to read all of the text on the 'contact us' page, make sure that the information is correct, and make sure that the text looks strong. - Success
     2. The background image now loads faster as I replaced the jpg files with the converted png files. - Success
     3. Try the 'Your Own Money Investments' link in the logo  - Success
     4. Try the 'Reading' button and hover-over response in the navbar. - Success
@@ -207,14 +207,10 @@ Since this is a static website it only requires very basic testing. I tested all
     12. Try the 'facebook' icon & link, and hover-over response in the social links at the bottom of the page. - Success
     13. Try the 'twitter' icon & link, and hover-over response in the social links at the bottom of the page. - Success
     14. Try the 'instagram' icon & link, and hover-over response in the social links at the bottom of the page. - Success
-    15. Try the 'yahoo finance' icon & link, and hover-over response in the social links at the top of the page. - Success
-    16. Try the 'trading view' icon & link, and hover-over response in the social links at the top of the page. - Success
-    17. Try the 'morningstar' icon & link, and hover-over response in the social links at the top of the page. - Success
-    18. Try the 'tastytrade' icon & link in the social links at the bottom of the page. - Success
-    19. Make sure all of the information in the 'trading view' chart is readable on wide screen and on narrow screens. - Success
-    20. Make sure all of the information in the 'income statement' is readable on wide screen and on narrow screens. - Success
-    21. Make sure all of the information in the 'liabilities section of the balance sheet' is readable on wide screen and on narrow screens. - Success
-    22. Make sure all of the information in the 'cashflow sheet' is readable on wide screen and on narrow screens. - Success
+    15. Try typing into the 'Email Address' field - Success
+    16. Try picking all options: 'Particular Stock', 'Strategy', 'Position Sizing', 'Entering a Trade', 'Exiting a Trade' from the 'Question Subject' dropdown menu. - Success
+    17. Try typing into the 'Question' field. - Success
+    18. Try hovering over the 'Submit' button - Success (the full functinality of this form is out of scope for this static website project)
 
 
 1. Contact form:
